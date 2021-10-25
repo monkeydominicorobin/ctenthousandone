@@ -10,6 +10,8 @@ int fnfour();
 
 int fnfive();
 
+int fnsix();
+
 int fnone()
 {
   return 1;
@@ -35,6 +37,11 @@ int fnfive()
   return 5;
 }
 
+int fnsix()
+{
+  return 6;
+}
+
 int main()
 {
   printf("%d\n", fnone());
@@ -42,5 +49,6 @@ int main()
   printf("%d\n", fnthree());
   printf("%d\n", fnfour());
   printf("%d\n", fnfive());
+  printf("%d\n", fnsix());
   return 0;
 }
