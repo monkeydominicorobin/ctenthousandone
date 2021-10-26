@@ -14,6 +14,8 @@ int fnsix();
 
 int fnseven();
 
+int fneight();
+
 int fnone()
 {
   return 1;
@@ -49,6 +51,11 @@ int fnseven()
   return 7;
 }
 
+int fneight()
+{
+  return 8;
+}
+
 int main()
 {
   printf("%d\n", fnone());
@@ -58,5 +65,6 @@ int main()
   printf("%d\n", fnfive());
   printf("%d\n", fnsix());
   printf("%d\n", fnseven());
+  printf("%d\n", fneight());
   return 0;
 }
