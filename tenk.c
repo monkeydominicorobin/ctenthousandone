@@ -20,6 +20,8 @@ int fnnine();
 
 int fnten();
 
+int fneleven();
+
 int fnone()
 {
   return 1;
@@ -70,6 +72,11 @@ int fnten()
   return 10;
 }
 
+int fneleven()
+{
+  return 11;
+}
+
 int main()
 {
   printf("%d\n", fnone());
@@ -82,5 +89,6 @@ int main()
   printf("%d\n", fneight());
   printf("%d\n", fnnine());
   printf("%d\n", fnten());
+  printf("%d\n", fneleven());
   return 0;
 }
