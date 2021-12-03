@@ -24,6 +24,8 @@ int fneleven();
 
 int fntwelve();
 
+int fnthirteen();
+
 int fnone()
 {
   return 1;
@@ -84,6 +86,11 @@ int fntwelve()
   return 12;
 }
 
+int fnthirteen()
+{
+  return 13;
+}
+
 int main()
 {
   printf("%d\n", fnone());
@@ -98,5 +105,6 @@ int main()
   printf("%d\n", fnten());
   printf("%d\n", fneleven());
   printf("%d\n", fntwelve());
+  printf("%d\n", fnthirteen()); 
   return 0;
 }
